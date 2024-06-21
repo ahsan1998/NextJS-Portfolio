@@ -47,13 +47,14 @@ const AchievementsSection = () => {
                   animateToNumber={parseInt(achievement.value)}
                   locale="en-US"
                   className="text-white text-4xl font-bold"
-                  configs={(_: any, index: any) => {
-                    return {
-                      mass: 1,
-                      friction: 100,
-                      tensions: 140 * (index + 1),
-                    };
-                  }}
+                  
+                  // configs={(_: any, index: any) => {
+                  //   return {
+                  //     mass: 1,
+                  //     friction: 100,
+                  //     tensions: 140 * (index + 1),
+                  //   };
+                  // }}
                 />
                 {achievement.postfix}
               </h2>
